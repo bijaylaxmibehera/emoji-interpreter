@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import "./styles.css";
 //database
 const emojiDictionary = {
@@ -9,7 +9,19 @@ const emojiDictionary = {
   "😉": "Wink Face",
   "😂": " Face with Tears of Joy",
   "😋": "Face Savouring Delicious Food",
-  "😎": "Cool"
+  "😎": "Cool",
+   "🤔": "Thinking Face",
+  "🤐": "Face with a Zipper Mouth",
+  "🤕": "Injured",
+  "😲": "Shocked Face",
+  "😰 ": "Nervous or anxious face with sweat",
+  "😞": "Sad or disappointed Face",
+  "😡": "Red Angry Face",
+  "😖": "holding back tears",
+  "😥": "Sad or disappointed but Relieved Face",
+  "🧐": "observation or encouraging a closer look at some content",
+  "🤧": "Sneezing Face",
+  "🤤": "Drooling Face"
 };
 //convert object to array
 const emojisWeKnow = Object.keys(emojiDictionary);
